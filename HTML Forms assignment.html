@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML Form assignment</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		
+		<div>
+				<label for='frist name'>First name</label> 
+			<input id='first name' type="text" name="first name" placeholder='John' required>                            
+				<label for='last name'>Last name</label>
+			<input id='last name' type="text" name="last name" placeholder='smith' required>
+		</div>
+		
+		<div>What is your gender?</div>
+				<label for='male'>Male</label>
+			<input type="radio" name="gender choice" id='male' value='gender m'>
+				<label for='female'>Female</label>
+			<input type="radio" name="gender choice" id='female' value='gender f'>
+				<label for='other'>Other</label>
+			<input type="radio" name="gender choice" id='other' value='gender o'>
+
+		<div>
+				<label for='email'>Email:</label>	
+			<input id='email' type="email" name="email" placeholder='your email' required>
+				<label for='password'>Password:</label>	
+			<input id='password' type="password" name="password" placeholder='your password' minlength="5" maxlength="10" required> 
+
+		</div>
+
+		<div> Birthday:
+			<select name='month'>
+				<option>Month</option>
+				<option>January</option>
+				<option>Febuary</option>
+				<option>March</option>
+				<option>April</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>August</option>
+				<option>September</option>
+				<option>Octobor</option>
+				<option>November</option>
+				<option>December</option>
+			</select>
+			
+			<select name='day'>
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+			<select name='year'>
+				<option>Year</option>
+				<option>2010</option>
+				<option>2009</option>
+				<option>2008</option>
+				<option>2007</option>
+			</select>
+		</div>
+		<div> I agree to the terms and conditions 
+			<input type="checkbox" name="terms and conditions" required>
+		</div>
+			<input type="Submit" name="submit" value='Sign in'>
+
+
+	</form>
+
+</body>
+</html>
